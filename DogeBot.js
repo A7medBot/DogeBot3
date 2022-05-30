@@ -1408,11 +1408,7 @@ menu =
 
 ${gaya2} ${prefix}runtime
 ${gaya2} ${prefix}speed
-${gaya2} ${prefix}rentbot
-${gaya2} ${prefix}payment
 ${gaya2} ${prefix}owner
-${gaya2} ${prefix}developer
-${gaya2} ${prefix}script
 ${gaya2} ${prefix}delete _Reply to bot messages_`
 DogeXeonOP.sendMessage(from, { contentText: `${menu}`, footerText: `*_${tanggal}_*`, buttons: [{ buttonId: `${prefix}command`, buttonText: { displayText: 'BACK ⬅️' }, type: 1 },{ buttonId: `${prefix}owner`, buttonText: { displayText: 'OWNER 👤' }, type: 1 } ], headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: fakeimage, contextInfo: {mentionedJid: [sender]}}}, 'buttonsMessage')
 break
